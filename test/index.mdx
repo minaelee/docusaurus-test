@@ -1,0 +1,17 @@
+---
+slug: test
+title: Test
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="current-fruit">
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+    <a href="?current-fruit=orange">Click for orange</a>
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+</Tabs>
